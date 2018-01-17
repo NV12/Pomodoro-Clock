@@ -1,0 +1,22 @@
+.container{
+	margin: 5% auto;
+	text-align: center;
+}
+
+.col {
+	display: inline;
+	padding: 20px;
+}
+
+.main-content{
+	padding-top: 40px;
+}
+
+#figures{
+	display: inline;
+	padding: 10px;
+}
+
+.col-col{
+	/*padding: 40px;*/
+}
