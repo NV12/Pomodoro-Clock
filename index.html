@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1>My Clock</h1>
+		<h1>My Pomodromo</h1>
 		<div class="row1">
 			<div class="col">Break Length</div>
 			<div class="col">Session Length</div>
@@ -20,14 +20,14 @@
 		<div class="row2">
 
 			<div class="col">
-				<button>-</button>
-				<div id="figures">5</div>
-				<button>+</button>
+				<button id="breakMn">-</button>
+				<div class="figures" id="breakTime">5</div>
+				<button id="breakPl">+</button>
 			</div>
 			<div class="col">
-				<button>-</button>
-				<div id="figures">5</div>
-				<button>+</button>	
+				<button id="sessionMn">-</button>
+				<div class="figures" id="sessionTime">25</div>
+				<button id="sessionPl">+</button>	
 			</div>
 			
 		</div>
@@ -35,9 +35,8 @@
 
 	<div class="container-fluid">
 			<div id="session">
-
-				<h1 id="time">Session</h1>
-				<div id="time">25:00</div>
+				<h1 class="time" id="clockHeading">Session</h1>
+				<div class="time" id="clock">25:00</div>
 			</div>
 			
 	</div>

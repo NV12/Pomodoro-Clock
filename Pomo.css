@@ -1,13 +1,18 @@
 .container,.container-fluid{
 	margin: 5% auto;
 	text-align: center;
-
+	max-width: 400px;
 }
 
 .col {
 	display: inline;
 	padding: 20px;
 	/*vertical-align: middle;*/
+}
+
+.figures{
+	display: inline;
+	padding: 10px;
 }
 
 #session{
@@ -21,13 +26,9 @@
 	/*vertical-align: middle;*/
 }
 
-#figures{
-	display: inline;
-	padding: 10px;
-}
 
-#time{
-	padding-top: 50px;
+.time{
+	padding-top: 70px;
 	/*padding: 10% auto;*/
 	/*margin: 10% auto;*/
 	/*vertical-align: middle;*/
