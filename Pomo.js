@@ -62,8 +62,9 @@ $(document).ready(function(){
 			$("button").prop("disabled",true);
 
 			if(timerVal !== null) return;
-
+			console.time();
 			timerVal=setInterval(timer,1000);
+
 					
 		}
 
@@ -82,7 +83,7 @@ $(document).ready(function(){
 	function timer(){
 		
 		console.log("count",++count);
-		
+		console.timeEnd();
 		if(sec == 0 && min == 0 ){
 
 			sessionStatus = !sessionStatus;
